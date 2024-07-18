@@ -1,0 +1,10 @@
+server:
+  port: 8023
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  cache:
+    #ehcache配置文件路径
+    ehcache:
+      config: classpath:ehcache.xml
+
